@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubReview</title>
+    <link rel="stylesheet" href="/css/registro-inicio.css">
+</head>
+<body>
+    <div class="div-formulario">
+        <form>
+            <h1>Registro</h1>
+            <label for="usuario">Introduce tu usuario: </label>
+                <input id="usuario" value="" minlength="4" maxlength="20" name="usuario">
+            <br>
+            <br>
+            <label for="correoelectronico">Introduce tu correo electrónico:</label>
+                <input type="text" id="correoelectronico" value="" maxlength="35" min="8" width="30px">
+            <br>
+            <br>
+            <label for="contra">Introduce tu contraseña:</label>
+                <input type="password" id="contra" name="contraseña" value="" maxlength="30" minlength="4">
+            <br>
+            <br>
+            <label for="contra">Repita su contraseña:</label>
+                <input type="password" id="contra" name="contraseña" value="" maxlength="30" minlength="4">
+            <br>
+            <br>
+            <label for="fechanacimiento">Introduce tu fecha de nacimiento:</label>
+                <input type="date" id="fechanacimiento">
+            <br>
+            <br>
+            <div class="inicio-sesion-p">
+            <p>¿Tienes una cuenta creada? <a href="inicioSesion.html">Inicie sesión</a></p>
+            </div>
+            <button type="submit" onclick="alert('Usuario registrado')">Registrar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </div>
+</body>
+</html>

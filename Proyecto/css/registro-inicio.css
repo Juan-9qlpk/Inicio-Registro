@@ -1,0 +1,60 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+label{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+input{
+  border-radius: 5px;
+  border-color: blue;
+  width: 200px; 
+  height: 20px; 
+  font-size: 16px; 
+  padding: 3px;
+}
+
+form{
+  border: 2px solid;
+  border-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 350px;
+}
+
+div{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+button{
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: white;
+  color: blue;
+}
+.inicio-sesion-p{
+  color: aliceblue;
+a{
+  color:mediumaquamarine
+}
+}
