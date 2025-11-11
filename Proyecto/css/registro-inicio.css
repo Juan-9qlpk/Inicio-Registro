@@ -33,7 +33,12 @@ form{
   padding: 30px;
   width: 350px;
 }
-
+.div-formulario{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -49%);
+}
 div{
   text-align: center;
   justify-content: center;
@@ -55,6 +60,7 @@ button:hover{
 .inicio-sesion-p{
   color: aliceblue;
 a{
-  color:mediumaquamarine
+  color:mediumaquamarine;
+  text-decoration: none;
 }
 }
