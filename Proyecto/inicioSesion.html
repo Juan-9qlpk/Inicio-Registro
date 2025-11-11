@@ -8,20 +8,20 @@
 </head>
 <body>
     <div class="div-formulario">
-    <form>
+    <form onsubmit="alert('Se ha iniciado sesión correctamente'); return false" method="post">
         <h1>Inicio de Sesión</h1>
         <label for="usuario">Introduce tu usuario: </label>
-            <input id="usuario" name="usuario" value=""  minlength="4" maxlength="20">
+            <input id="usuario" name="usuario" value=""  minlength="4" maxlength="20" required>
         <br>
         <br>
-        <label for="password">Introduce tu contraseña: </label>
-            <input id="password" name="contraseña" type="password" minlength="6" maxlength="30">
+        <label for="contraseña">Introduce tu contraseña: </label>
+            <input id="contraseña" name="contraseña" type="password" minlength="6" maxlength="30" required>
         <br>
         <br>
         <div class="inicio-sesion-p">
             <p>¿No tienes usuario? <a href="registro.html"> Registrese</a></p>
         </div>
-            <button type="submit" onclick="alert('Has iniciado sesión'); return false">Iniciar Sesión</button>
+            <button type="submit">Iniciar Sesión</button>
     </form>
     </div>
 </body>
